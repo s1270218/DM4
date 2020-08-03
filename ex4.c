@@ -8,7 +8,6 @@ int main(){
  printf("Who are you?\n" );
  scanf("%s",str);
  printf("Hello,%s\n",str);
-
  //cointos
  printf("Tossing a coin...\n");
 
