@@ -24,7 +24,7 @@ int main(){
  }    
  printf("Heads: %d, Tails: %d\n",head,tail);
  //game_add
- if(head > tail)printf("You won!");
- else printf("You lost!");
+ if(head > tail)printf("%s won!",str);
+ else printf("%s lost!",str);
  return 0;
 }
